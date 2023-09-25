@@ -1,0 +1,34 @@
+body {
+    background-image: url('../images/820643.jpg'); 
+    background-size: cover; 
+    background-attachment: fixed;  
+}
+
+
+p{
+    line-height: 3em;
+    font-size: 20px;
+}
+
+#videos{
+    text-align: center;
+}
+#formulario{
+    line-height: 3em; 
+    margin-left: auto;
+    margin-right: auto;    
+}
+form{
+    width:max-content;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: #F4F3EE;
+    border-radius: 25px;
+    padding: 10px;
+    line-height: 30px;        
+}
+label{
+    color:white;
+}
+
+

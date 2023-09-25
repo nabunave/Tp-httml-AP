@@ -1,0 +1,16 @@
+Trabajo en grupo:
+1. Reunirse en grupo de 2 o 3 alumnos.
+2. Cada grupo elegirá un tema y creará una página web personal sobre ese
+tema. La página debe incluir:
+3. Un encabezado con el nombre del sitio y algún tipo de logotipo o imagen
+relacionada con el tema.
+4. Una sección "Acerca de" con información sobre los creadores del sitio y
+una breve descripción del tema elegido.
+5. Una sección "Contenido" con al menos dos subsecciones que detallan
+diferentes aspectos del tema. Esta sección debe incluir imágenes, videos y
+otros recursos multimedia relevantes si es posible.
+6. Una sección "Contacto" con información de contacto para los creadores
+del sitio y algún tipo de formulario de comentarios o correo electrónico.
+7. Los grupos trabajarán juntos para crear la estructura básica de la página
+web utilizando HTML5 y darle estilo utilizando CSS3. El profesor podrá
+ofrecer

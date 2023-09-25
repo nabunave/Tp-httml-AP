@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas de terror</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="images/movie.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <div class="divClass">
+            <img src="images/png.png" alt="Logo Cine" width="200px">
+            <h1>Peliculas de Terror</h1>
+            
+        </div>
+    </header>
+
+    <nav>
+        <div>
+            <a href="index.html">Inicio</a>
+            <a href="#videos">Videos</a>
+            <a href="https://uba.moodlecloud.com/login/index.php">Aula Virtual</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <h2>ACERCA DE:</h2>
+            <p>Bienvenido a nuestro mundo de pesadillas y emociones escalofriantes! Explora lo más oscuro de la imaginación humana en nuestra página dedicada al terror. Sumérgete en historias escalofriantes, leyendas urbanas intrigantes y análisis detallados de películas y libros de horror. Prepárate para sentir el miedo en su forma más pura mientras exploramos lo desconocido y lo macabro. ¡Adéntrate en el reino del terror con nosotros si te atreves!</p>        
+        </section>
+        
+        <section>
+            <h2>CONTENIDO</h2>
+            <section>
+                <h3>Las Películas de Terror Más Taquilleras de todos los Tiempos</h3>
+                <h4>1. IT (2017)</h4>
+                <p>Recaudación Mundial: 701 millones de dólares<br>Recaudación USA: 328 millones.</p>
+                <img src="images/it2017.jpg" alt="It2017">
+                <h4>2. EL SEXTO SENTIDO</h4>
+                <p>Recaudación Mundial: 672 millones de dólares<br>Recaudación USA: 293 millones.</p>
+                <img src="images/sextosentido.jpg" alt="Sexto sentido">
+                <h4>3. SOY LEYENDA</h4>
+                <p>Recaudación Mundial: 585 millones de dólares<br>Recaudación USA: 256 millones.</p>
+                <img src="images/soyleyenda.jpg" alt="Soy leyenda">
+                <h4>4. TIBURÓN</h4>
+                <p>Recaudación Mundial: 482 millones de dólares<br>Recaudación USA: 272 millones.</p>
+                <img src="images/tiburon.jpg" alt="Tiburon">
+                <h4>5. IT: CAPÍTULO 2</h4>
+                <p>Recaudación Mundial: 467 millones de dólares<br>Recaudación USA: 211 millones.</p>
+                <img src="images/it2.jpg" alt="It capitulo 2">
+                <h4>6. EL EXORCISTA</h4>
+                <p>Recaudación Mundial: 428 millones de dólares<br>Recaudación USA: 230 millones.</p>
+                <img src="images/elexorcista.jpg" alt="El exorcista">
+                <h4>7. LA MONJA</h4>
+                <p>Recaudación Mundial: 363 millones de dólares<br>Recaudación USA: 117 millones.</p>
+                <img src="images/lamonja.jpg" alt="La monja">
+                <h4>8. HANNIBAL</h4>
+                <p>Recaudación Mundial: 350 millones de dólares<br>Recaudación USA: 165 millones.</p>
+                <img src="images/hannibal.jpg" alt="Hannibal">
+                <h4>9. UN LUGAR TRANQUILO</h4>
+                <p>Recaudación Mundial: 334 millones de dólares<br>Recaudación USA: 188 millones.</p>
+                <img src="images/quietplace.jpg" alt="Un lugar tranquilo">
+                <h4>10. EXPEDIENTE WARREN</h4>
+                <p>Recaudación Mundial: 334 millones de dólares<br>Recaudación USA: 188 millones.</p>
+                <img src="images/expedientewaren.jpg" alt="Expediente Warren">
+            </section>
+            
+            
+            <section>
+                <a name="videos"></a><h3>Mas peliculas y cine escalofriante</h3>                
+                <div id="videos">                
+                    <div class="alineacioncentrada videos"><iframe width="853" height="362" src="https://www.youtube.com/embed/3oDs3H83x_Y" title="REZA POR EL DIABLO, Película de terror completa en español latino" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                    <br>
+                    <div class="alineacioncentrada videos"><iframe width="853" height="480" src="https://www.youtube.com/embed/jeA5IzU1W0A" title="El Demonio del Sueño (2018) · Películas En Español" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                </div>
+            </section>
+        </section>
+
+        <section>
+            <a name="contacto"></a><h2>CONTACTO</h2>
+            <div id="formulario">
+                <form action="https://v2.cinecalidad.com.mx/genero-de-la-pelicula/terror/">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre"><br>
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido"><br>
+                    <label for="mail">Correo electrónico</label>
+                    <input type="mail" id="correo" required><br>
+                    <label>Seleccione tipo terror</label>
+                    <select>
+                        <option value="a">Gore</option>
+                        <option value="b">Slasher</option>
+                        <option value="c">Horror</option>
+                        <option value="d">Thriller</option>
+                        <option value="e">Terror psicologico</option>
+                    </select>
+                    <br>
+                    <label for="comentario">Comentarios Adicionales</label>
+                    <textarea name="comentario" placeholder="Ingrese aqui el comentario"></textarea><br>
+                    <label for="clave">Contraseña</label>
+                    <input type="password" id="clave" required><br>
+                    <input type="submit" value="Guardar">
+                    <input type="reset" value="Borrar">
+                </form>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
